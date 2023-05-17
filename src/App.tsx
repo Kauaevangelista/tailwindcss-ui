@@ -2,6 +2,7 @@ import { useState } from "react"
 import Header from "./components/Header"
 import Sidebar from "./components/Sidebar"
 import Container from "./components/Container"
+import Bottombar from "./components/Bottombar"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ function App() {
               count is {count}
             </button>
           </div>
+          <Bottombar/>
         </div>
       </Container>
     </>
